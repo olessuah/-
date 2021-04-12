@@ -116,3 +116,8 @@ Complex cosh(const Complex& z)
 {
 	return Complex(cosh(z.getReal() * cos(z.getImaginary())), sinh(z.getReal() * sin(z.getImaginary())));
 }
+
+Complex y(const Complex& z)
+{
+	return z / Complex(2, 0) + cosh(Complex(1, 0) + z);
+}
