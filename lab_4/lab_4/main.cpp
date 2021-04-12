@@ -29,7 +29,7 @@ void main()
 
 	cout << "z = " << z;
 
-	cout << "\ny(z) = z/2 + ch(1+z)\ny(z) = " << (z / Complex(2, 0) + cosh(Complex(1, 0) + z));
+	cout << "\ny(z) = z/2 + ch(1+z)\ny(z) = " << y(z) << endl;
 
 	_getch();
 
