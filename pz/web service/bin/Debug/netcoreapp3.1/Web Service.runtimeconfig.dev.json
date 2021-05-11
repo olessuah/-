@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\xacha\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\xacha\\.nuget\\packages"
+    ]
+  }
+}
